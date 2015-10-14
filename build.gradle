@@ -1,8 +1,8 @@
 apply plugin: 'java'
 apply plugin: 'checkstyle'
 
-defaultTasks 'clean','build','check'
+defaultTasks 'clean','build','checkafter'
 
-task check(dependsOn: build) << {
+task checkafter(dependsOn: build) << {
 	checkstyleMain
 }
