@@ -1,4 +1,4 @@
 apply plugin: 'java'
 apply plugin: 'checkstyle'
 
-default 'clean','build','checkstyleMain'call checkstyle gradle
+default 'clean','build','checkstyleMain'
